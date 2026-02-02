@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+  <header>
+    <h1>⏰ Smart Task Manager</h1>
+    <p>Discipline • Focus • Growth</p>
+  </header>
+
+  <!-- ADD TASK -->
+  <section class="add-task">
+    <h2>➕ Add New Task</h2>
+    <input type="text" id="taskName" placeholder="Task name">
+    <div class="time-row">
+      <input type="time" id="startTime">
+      <input type="time" id="endTime">
+    </div>
+    <button onclick="addTask()">Add Task</button>
+  </section>
+
+  <!-- TASK BOARD -->
+  <section class="task-board">
+    <h2>📋 Your Tasks</h2>
+    <div id="taskList" class="task-list"></div>
+  </section>
+
+  <button class="logout" onclick="logout()">Logout</button>
+
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
