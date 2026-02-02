@@ -1,4 +1,4 @@
-⏰ Smart Task Manager (Frontend Project)
+⏰ Task Manager (Frontend Project)
 
 A professional, colorful, and fully functional frontend task management website built using HTML, CSS, and JavaScript.
 This project helps users manage tasks with start & end times, time-based alerts, beep notifications, and motivational feedback to improve discipline and productivity.
